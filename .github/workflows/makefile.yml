@@ -21,9 +21,6 @@ jobs:
         repository: lemniskett/AnyKernel3
         path: zipper
     
-    - name: Android Kernel Action
-      uses: lemniskett/android-kernel-actions@v1.0.0
-
     - name: Android kernel build
       uses: lemniskett/android-kernel-actions@master
       id: build
